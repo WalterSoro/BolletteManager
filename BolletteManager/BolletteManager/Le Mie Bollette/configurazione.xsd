@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ParametriConfigurazione">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="utenze" type="xs:string"/>   
+			</xs:sequence>
+			<xs:attribute name="IPClient" type="xs:string"/>
+			<xs:attribute name="IPServerLog" type="xs:string"/>
+			<xs:attribute name="portaServerLog" type="xs:short"/>
+			<xs:attribute name="IPDataBase" type="xs:string"/>
+			<xs:attribute name="portaDataBase" type="xs:short"/>
+			<xs:attribute name="user" type="xs:string"/>
+			<xs:attribute name="password" type="xs:string"/>
+		</xs:complexType>
+  </xs:element>
+</xs:schema>

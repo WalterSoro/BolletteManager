@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configurazione.xml -->
+<ParametriConfigurazione    IPClient="localhost" 
+                            IPServerLog="localhost" 
+                            portaServerLog="8080"
+                            IPDataBase="localhost" portaDataBase = "3306" user ="root" password=""> 
+                            <utenze>Luce,Acqua,Gas,Tari,Internet</utenze>
+</ParametriConfigurazione>
